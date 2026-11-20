@@ -1,0 +1,1 @@
+{"dependencies":{"imvu.js":"^0.1.0","yt-search":"^2.13.1"},"description":"Bot de música para salas de IMVU con imvu.js, listo para Render gratis.","engines":{"node":">=18"},"main":"index.js","name":"imvu-music-bot","scripts":{"start":"node index.js"},"version":"1.0.0"}

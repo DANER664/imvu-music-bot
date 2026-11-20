@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: imvu-music-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: IMVU_TOKEN
+        sync: false
+      - key: BOT_OUTFIT
+        value: 80,191
+      - key: BOT_SEAT
+        value: "-1 0"
+    healthCheckPath: /health
